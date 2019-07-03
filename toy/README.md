@@ -33,7 +33,11 @@ To check out the difference of accuracy with different weights dimensions, run:
 ```
 python plot_allacc.py
 ```
-Remind if the file does not exist please run `vqa-counter.py`  with missing file parameter. For example, change line 39 `self.f = nn.ModuleList([PiecewiseLin(8) for _ in range(8)])`.
+Remind if the file does not exist please run `vqa-counter.py`  with missing file parameter. For example, change line 39 to
+
+`
+self.f = nn.ModuleList([PiecewiseLin(8) for _ in range(8)])
+`
 
 Alternatively, pretrained model weights and evaluation accuracy are stored in `.txt` files, you can just run `plot_allacc.py` directly without training.
 
