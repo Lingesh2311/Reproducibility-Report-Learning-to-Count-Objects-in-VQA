@@ -3,5 +3,4 @@ This is the Reproducibility Code on "Learning to Count Objects in Natural Images
 The original paper can be found in the following link:
 https://openreview.net/forum?id=B12Js_yRb
 
-This reproduces the results of the toytask dataset due to computational constraints on the dataset. Although done on a small scale using the available computation at the time of reproduction. This code generates the results with great accuracy. Experiments using 8+1 and 32+1 weights
-for the linear activation functions was done as mentioned but not implemented in the original paper. 
+This reproduces the results of the toytask dataset due to computational constraints on the dataset. Although done on a small scale using the available computation at the time of reproduction. This code generates the results with great accuracy. Experiments using 8+1 and 32+1 weights for the linear activation functions was done as mentioned but not implemented as in the original paper. 
